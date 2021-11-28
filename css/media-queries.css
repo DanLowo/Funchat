@@ -1,0 +1,218 @@
+@media screen and (max-width: 550px) {
+    /* SECTION */
+    .section-padding-h {
+        padding: 0 5vw;
+    } 
+
+    .section-padding-all {
+        padding: 6vh 5vw;
+    }
+
+
+    /* BUTTONS */
+    button {
+        padding: 10px 25px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
+    /* CARDS */
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 280px;
+        max-width: 280px;
+        min-height: 300px;
+    }
+
+    .card .img {
+        padding: 15px 0;
+    }
+
+    .card h1 {
+        font-size: 20px !important;
+        text-align: left;
+    }
+
+    .card .user p {
+        top: 10px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+    /* JUMBOTRON */
+    .jumbotron h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .jumbotron #inspire {
+        display: block;
+    }
+
+    .jumbotron .call-to-action {
+        margin: 15px 0;
+    }
+
+
+
+
+    /* WHY CHOOSE US */
+    .why-choose-us {
+        flex-direction: column; 
+    }
+
+    .try-it-now .body {
+        width: 100%;
+        text-align: center;
+    }
+
+    .try-it-now .body h1 {
+        font-size: 25px;
+    }
+
+    .try-it-now p {
+        margin-top: 10px;
+    }
+
+    .try-it-now .call-to-action {
+        justify-content: center;
+        position: relative;
+        bottom: 16px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    /* SUPPORT */
+    .support .heading header {
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .support .heading h1 {
+        font-size: 25px;
+    }
+
+    .support .content {
+        flex-direction: column;
+    }
+
+    .support .content .list .body {
+        padding-left: 0;
+    }
+
+
+
+
+    /* MANAGE YOUR TEAMS */
+    .manage-teams {
+        flex-direction: column-reverse;
+    }
+
+    .manage-teams .content {
+        width: 100%;
+    }
+
+    .manage-teams .content .header {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .manage-teams .content .header h1 {
+        font-size: 25px;
+    }
+
+
+
+
+    /* COLLABORATIVE */
+    .collaborative li h2 {
+        color: var(--gray-color);
+        font-size: 20px;
+    }
+
+
+
+
+    /* EASY PROCESS */
+    .easy-process {
+        text-align: center;
+    }
+
+    .easy-process h1 {
+        font-size: 25px;
+    }
+
+
+
+
+    /* COMMUNICATION STRATEGY */
+    .communication {
+        text-align: center;
+    }
+
+    .communication h1 {
+        font-size: 25px;
+    }
+
+
+
+
+    /* FOOTER */
+    footer {
+        padding: 2vh 2vw;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+    }
+
+    footer .menu-links {
+        margin-top: 5vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    footer .menu-links h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    footer ul {
+        display: flex;
+        gap: 20px;
+        font-size: 14px;
+        color: var(--light-gray);
+    }
+
+    footer .credits {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+
+
+
+    /* only deskop */
+    #only-desktop {
+        display: none;
+    }
+
+}

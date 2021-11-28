@@ -1,0 +1,182 @@
+/* BUTTONS */
+button {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 6px 2px var(--light-purlpe);
+    background-color: var(--purple-color);
+}
+
+button.transparent {
+    background-color: white;
+    color: var(--gray-color);
+    box-shadow: none;
+}
+
+/* SECTION */
+.section-padding-h {
+    padding: 0 10vw;
+}
+
+.section-padding-all {
+    padding: 15vh 10vw;
+}
+
+
+
+/* FLEX */
+.flex-row {
+    display: flex;
+}
+
+.flex-row.center-both {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column.center-both {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.advantage-item {
+    width: 40%;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    color: var(--gray-color);
+}
+
+.advantage-item i.icon {
+    padding: 16px;
+    border-radius: 50%;
+    /* background-color: var(--yellow-color); */
+}
+
+.advantage-item h2 {
+    margin: 17px 0;
+    font-size: 17px;
+}
+
+.advantage-item p {
+    font-size: 15px;
+    color: var(--light-gray);
+}
+
+/* BAR */
+div.bar {
+    width: 50px;
+    height: 5px;
+    margin: 5px 0;
+}
+
+
+
+/* CARD */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    min-height: 300px;
+    width: 230px;
+    max-width: 230px;
+    border: 1px solid var(--background-light-gray);
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: var(--gray-color);
+    box-shadow: 1px 1px 0px 1px lightgray;
+}
+
+.card .img {
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: var(--background-light-gray);
+
+}
+
+.card img {
+    max-width: 100%;
+    height: 150px;
+}
+
+.card h1 {
+    font-size: 18px;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.card .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .user img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.card .user p {
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+    color: var(--light-gray);
+}
+
+
+
+
+/* Input */
+input {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid var(--background-light-gray);
+    border-radius: 16px;
+}
+
+
+/* Margins */
+.mb-large {
+    margin-bottom: 50px;
+}
+
+
+/* BACKGROUND COLORS */
+.bg-yellow {
+    background-color: var(--yellow-color);
+}
+
+.bg-pink {
+    background-color: var(--pink-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+
+.bg-purple {
+    background-color: var(--purple-color);
+}

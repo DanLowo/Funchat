@@ -1,0 +1,337 @@
+:root {
+    --purple-color: #6023BC;
+    --gray-color: #2F4145;
+    --yellow-color: #F9D002;
+    --pink-color: #FFBED0;
+    --green-color: #86E4B2;
+    --blue-color: #B1E0EA;
+    --light-pink: #FBF3FE;
+    --light-purlpe: #9B85C3;
+    --light-gray: gray;
+    --light-yellow: #FFFDF4;
+    --background-light-gray: #F1F5F4;
+}
+
+* {
+    margin: 0;
+}
+
+
+
+
+/* NAVIGATION BAR */
+
+nav {
+    padding: 20px 0;
+}
+
+nav .nav-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-container .nav-title {
+    color: var(--gray-color);
+}
+
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.nav-container .nav-actions button {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 2px 2px 15px 3px var(--light-purlpe);
+    background-color: var(--purple-color);
+}
+
+
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    margin-top: 7vh;
+    min-height: 50vh;
+    gap: 30px;
+}
+
+.jumbotron h1 {
+    font-size: 45px;
+    color: var(--gray-color);
+}
+
+.jumbotron #inspire {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.jumbotron #inspire sub {
+    position: relative;
+    top: 10px;
+    color: var(--gray-color);
+}
+
+.jumbotron .call-to-action {
+   gap: 30px; 
+}
+
+
+
+
+/* WHY CHOOSE US */
+
+.why-choose-us {
+    margin-top: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light-pink);
+}
+
+.try-it-now {
+    color: var(--gray-color);
+}
+
+.try-it-now .body {
+    width: 65%;
+}
+
+.try-it-now p {
+    font-size: 15px;
+    color: var(--light-gray);
+    margin-top: 15px;
+}
+
+.try-it-now .call-to-action {
+    gap: 20px;
+}
+
+.try-it-now .call-to-action button {
+    padding: 10px 20px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* SUPPORT */
+.support {
+    gap: 20px;
+}
+
+.support .heading {
+    text-align: center;
+    color: var(--gray-color);
+}
+
+.support header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.support .content {
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support .content .img {
+    min-width: 50%;
+}
+
+.support .content .list {
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.support .content .list .body {
+    color: var(--light-gray);
+    padding-left: 20%;
+}
+
+.support#support .content .list .body p {
+    padding-left: 15px;
+    border-left: 4px solid var(--gray-color);
+}
+
+.support#support .content .list .body ul {
+    position: relative;
+    right: 30px;
+    list-style-type: none;
+}
+
+.support#support .content .list .body ul li {
+    display: flex;
+    margin-top: 20px;
+}
+
+.support#support .content .list .body ul li img {
+    width: 70px;
+    height: 50px;
+}
+
+
+
+
+/* MANAGE YOUR TEAMS */
+
+.manage-teams {
+    background-color: var(--light-yellow);
+    justify-content: space-between;
+}
+
+.manage-teams .content {
+    color: var(--gray-color);
+    width: 50%;
+}
+
+.manage-teams .content .header {
+    width: 60%;
+}
+
+.manage-teams .content .header p {
+    font-size: 15px;
+    color: var(--light-gray);
+    margin-top: 8px;
+}
+
+.manage-teams .content .items {
+    margin-top: 15px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.manage-teams .content .items p {
+    font-size: 15px;
+    margin-top: 8px;
+    color: var(--light-gray);   
+}
+
+.manage-teams .content .img {
+    min-width: 50%;
+}
+
+
+
+
+/* COLLABORATIVE */
+
+.collaborative .heading p {
+    margin-top: 15px;
+}
+
+.collaborative ul {
+    list-style-type: decimal-leading-zero;
+}
+
+.collaborative li {
+    margin-bottom: 40px;
+}
+
+.collaborative li h2 {
+    margin-bottom: 7px;
+}
+
+
+
+
+/* EASY PROCESS */
+.easy-process {
+    color: var(--gray-color);
+    background-color: var(--background-light-gray);
+}
+
+.easy-process p {
+    margin-top: 15px;
+    margin-bottom: 5vh;
+}
+
+
+
+
+/* COMMUNICATION STRATEGY */
+.communication {
+    color: var(--gray-color);
+}
+
+.communication p {
+    margin-top: 10px;
+    margin-bottom: 5vh;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 2vh 10vh;
+    background-color: var(--light-pink);
+}
+
+footer .footer-container {
+    justify-content: space-around;
+}
+
+footer .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--gray-color);
+}
+
+footer .menu-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-top: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+footer .credits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+footer h3#credit-header {
+    text-align: center;
+    color: var(--gray-color);
+    margin-bottom: 10px;
+}
+
+footer h4 a {
+    color: var(--light-gray);
+    text-decoration: underline;
+}
